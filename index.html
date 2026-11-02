@@ -1,0 +1,91 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tudo Shop Metricas Legal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+:root{
+  --bg:#ffffff; --surface:#f5f7fb; --fg:#1b2433; --muted:#5a6578;
+  --navy:#13294b; --accent:#d9572b; --line:#e2e7ef;
+  --display:"Lexend",system-ui,sans-serif; --body:"Source Sans 3",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0f1622; --surface:#172131; --fg:#e6ebf3; --muted:#9aa6b8;
+  --navy:#c9d6ef; --accent:#f07a4e; --line:#26334a; color-scheme:dark}}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.6;margin:0;padding:40px 16px 64px}
+.wrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+header{display:flex;flex-direction:column;gap:8px;border-bottom:1px solid var(--line);padding-bottom:24px}
+.brand{font-family:var(--display);font-weight:700;font-size:28px;color:var(--navy);margin:0}
+.brand span{color:var(--accent)}
+.sub{color:var(--muted);margin:0}
+nav{display:flex;gap:16px;flex-wrap:wrap}
+nav a{color:var(--accent);font-weight:600;text-decoration:none}
+nav a:hover{text-decoration:underline}
+section{display:flex;flex-direction:column;gap:12px;scroll-margin-top:24px}
+h2{font-family:var(--display);font-weight:500;font-size:24px;color:var(--navy);margin:0}
+h3{font-family:var(--display);font-weight:500;font-size:17px;margin:12px 0 0}
+p,ul{margin:0}
+ul{padding-left:22px}
+.date{color:var(--muted);font-size:14px}
+.contact{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 16px;font-family:ui-monospace,monospace;font-size:15px;overflow-wrap:anywhere}
+footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+</style>
+</head><body>
+<div class="wrap">
+  <header>
+    <p class="brand">Tudo <span>Shop</span> Metricas</p>
+    <p class="sub">Internal tool of Tudo Shop for reading the performance metrics of our own TikTok account.</p>
+    <nav><a href="#terms">Terms of Service</a><a href="#privacy">Privacy Policy</a></nav>
+  </header>
+
+  <section id="terms">
+    <h2>Terms of Service</h2>
+    <p class="date">Last updated: November 2, 2026</p>
+    <h3>1. About the app</h3>
+    <p>Tudo Shop Metricas ("the app") is an internal tool operated by Tudo Shop. It connects to TikTok through the official TikTok APIs (Login Kit and Display API) to read basic profile information and performance metrics of videos posted by Tudo Shop's own TikTok account.</p>
+    <h3>2. Who may use it</h3>
+    <p>The app is for internal use by the Tudo Shop team only. It is not offered to the general public and is not sold or distributed to third parties.</p>
+    <h3>3. What the app does</h3>
+    <ul>
+      <li>Reads profile information (display name, avatar, follower count, following count, total likes and video count).</li>
+      <li>Reads the list of the account's own public videos and their metrics (views, likes, comments and shares).</li>
+      <li>Shows this data so the team can analyze content performance.</li>
+    </ul>
+    <p>The app does not post, edit, delete or interact with any content, and does not access other users' accounts.</p>
+    <h3>4. Authorization</h3>
+    <p>Access happens only after the account owner logs in with TikTok and approves the requested permissions. Access can be revoked at any time in the TikTok app under Settings and privacy &gt; Security &gt; Apps and services permissions.</p>
+    <h3>5. TikTok's terms</h3>
+    <p>Use of the app is also subject to TikTok's Terms of Service and TikTok for Developers policies. The app is not affiliated with, endorsed by or sponsored by TikTok.</p>
+    <h3>6. No warranty</h3>
+    <p>The app is provided "as is". Tudo Shop is not responsible for interruptions or inaccuracies in data provided by TikTok's APIs.</p>
+    <h3>7. Changes</h3>
+    <p>These terms may be updated. The date at the top of this section shows the latest version.</p>
+    <h3>8. Contact</h3>
+    <div class="contact">tudoshop2109@gmail.com</div>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+    <p class="date">Last updated: November 2, 2026</p>
+    <h3>1. Data we access</h3>
+    <p>With the account owner's authorization, the app accesses only data from Tudo Shop's own TikTok account:</p>
+    <ul>
+      <li>Basic profile information: open ID, display name and avatar (scope <code>user.info.basic</code>).</li>
+      <li>Profile statistics: follower count, following count, likes count and video count (scope <code>user.info.stats</code>).</li>
+      <li>Public videos and their metrics: title, description, creation date, cover image, views, likes, comments and shares (scope <code>video.list</code>).</li>
+    </ul>
+    <h3>2. How we use it</h3>
+    <p>The data is used only to analyze the performance of Tudo Shop's own content and plan future posts. It is not used for advertising profiles, not sold and not shared with third parties.</p>
+    <h3>3. Data of other people</h3>
+    <p>The app does not collect personal data from viewers, followers or any other TikTok users.</p>
+    <h3>4. Storage and security</h3>
+    <p>Access tokens and metrics are stored only on Tudo Shop's own computer, are not published, and are kept only as long as needed for the analysis. Credentials are never shared.</p>
+    <h3>5. Your choices</h3>
+    <p>The account owner can revoke the app's access at any time in the TikTok app under Settings and privacy &gt; Security &gt; Apps and services permissions. On request, all stored data is deleted.</p>
+    <h3>6. Contact</h3>
+    <p>Questions about this policy or data deletion requests:</p>
+    <div class="contact">tudoshop2109@gmail.com</div>
+  </section>
+
+  <footer>Tudo Shop · Brazil</footer>
+</div>
+</body></html>
